@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FullUITestSuite" verbose="1">
+
+    <test name="AdoptOneDogWithCard">
+        <parameter name="username" value="Pucio"> </parameter>
+        <parameter name="password" value="Pucio street 123"> </parameter>
+        <parameter name="address" value="pucio@pucio.com"> </parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.AdoptOneDogWithCard" />
+        </classes>
+    </test>
+
+    <test name="AdoptOneDogWithCheck">
+        <parameter name="username" value="Pucio"> </parameter>
+        <parameter name="password" value="Pucio street 123"> </parameter>
+        <parameter name="address" value="pucio@pucio.com"> </parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.AdoptOneDogWithCheck" />
+        </classes>
+    </test>
+
+    <test name="AdoptTwoDogsWithTheSameAddition">
+        <parameter name="username" value="Pucio"> </parameter>
+        <parameter name="password" value="Pucio street 123"> </parameter>
+        <parameter name="address" value="pucio@pucio.com"> </parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.TwoDogsWithTheSameAddition" />
+        </classes>
+    </test>
+
+    <test name="AdoptTwoDogsOneWith3Accessories">
+        <parameter name="username" value="Pucio"> </parameter>
+        <parameter name="password" value="Pucio street 123"> </parameter>
+        <parameter name="address" value="pucio@pucio.com"> </parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.TwoDogsOneWith3Accessories" />
+        </classes>
+    </test>
+
+</suite>
